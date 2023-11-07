@@ -4,7 +4,7 @@ import mongoose from "npm:mongoose@7.6.3";
 
 import addCoche from "./resolvers/addcoche.ts";
 import addConcesionario from "./resolvers/addConcesionario.ts";
-import addCliente from "./resolvers/addCliente.ts";
+import addCliente from "./resolvers/anadirCliente.ts";
 import sendCoche from "./resolvers/sendCocheConcesionario.ts";
 import getCochesConcesionario from "./resolvers/getCochesConcesionario.ts";
 import deleteCoche_Concesionario from "./resolvers/deleteCocheConcesionario.ts";
